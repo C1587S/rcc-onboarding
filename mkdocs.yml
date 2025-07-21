@@ -1,0 +1,111 @@
+site_name: RCC Onboarding Guide
+site_description: A practical guide for new CIL predocs working with RCC systems
+site_url: https://climateimpactlab.github.io/rcc-onboarding
+repo_url: https://github.com/ClimateImpactLab/rcc-onboarding
+repo_name: ClimateImpactLab/rcc-onboarding
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - getting-started/index.md
+    - Connect via SSH: getting-started/ssh-connection.md
+    - Interactive Sessions: getting-started/interactive-sessions.md
+    - Your First Slurm Job: getting-started/first-slurm-job.md
+  - Environment Setup:
+    - environment-setup/conda-basics.md
+  - Hands-On Tutorial:
+    - hands-on-tutorial/index.md
+    - Explore Mortality Data: hands-on-tutorial/data-exploration.md
+  # - Reference:
+  #   - reference/slurm-commands.md
+  #   - reference/data-formats.md
+  #   - reference/common-patterns.md
+  # - Troubleshooting:
+  #   - troubleshooting/connection-issues.md
+  #   - troubleshooting/job-debugging.md
+  #   - troubleshooting/environment-conflicts.md
+
+theme:
+  name: material
+  logo: assets/images/cil_logo.png
+  favicon: assets/images/cil_logo.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ClimateImpactLab/rcc-onboarding
+    - icon: fontawesome/brands/github
+      link: https://github.com/ClimateImpactLab
+      name: Climate Impact Lab on GitHub
+  analytics:
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: This page was helpful
+          data: 1
+          note: Thanks for your feedback!
+        - icon: material/thumb-down-outline
+          name: This page could be improved
+          data: 0
+          note: Thanks for your feedback!
+
+extra_css:
+  - assets/stylesheets/extra.css
