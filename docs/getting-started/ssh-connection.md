@@ -35,26 +35,6 @@ Every RCC login follows this pattern:
 3. **Approve the request** on your phone/device
 4. **Connection established** to midway3
 
-## Common connection issues
-
-### Duo Push not received
-- Check that your device has internet connectivity
-- Ensure the Duo Mobile app is installed and configured
-- Try generating a passcode in the Duo app instead of using push
-
-### Connection timeout
-- Verify you're using `midway3.rcc.uchicago.edu` 
-- Try connecting from a university network or VPN if behind a firewall
-- Check for any campus network restrictions
-
-### Permission denied
-- Verify your RCC username is correct
-- Ensure your account is active and has RCC access
-
-```bash
-ssh-keygen -R midway3.rcc.uchicago.edu
-```
-
 ## Next steps
 
 Once connected to midway3, learn how to start [interactive sessions](interactive-sessions.md) for your research work.

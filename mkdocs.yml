@@ -1,6 +1,6 @@
 site_name: RCC Onboarding Guide
 site_description: A practical guide for new CIL predocs working with RCC systems
-site_url: https://climateimpactlab.github.io/rcc-onboarding
+site_url: https://rcc-onboarding.vercel.app
 repo_url: https://github.com/ClimateImpactLab/rcc-onboarding
 repo_name: ClimateImpactLab/rcc-onboarding
 

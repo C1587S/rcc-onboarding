@@ -40,11 +40,8 @@ Your workspace structure should look like:
 ```
 /project/cil/home_dirs/
 ├── youruser/              # Your personal directory
-│   └── rcc_onboarding/    # Onboarding exercises
-│       └── slurm_jobs/    # Job scripts and outputs
-└── rcc_onboard/           # Shared resources (already exists)
-    ├── utils/             # Monitoring scripts
-    └── examples/          # Example files and templates
+│   └── rcc_onboarding/ 
+│    └── slurm_jobs/ 
 ```
 
 ## Understanding Slurm job scripts
