@@ -7,23 +7,24 @@ repo_name: ClimateImpactLab/rcc-onboarding
 nav:
   - Home: index.md
   - Getting Started:
-    - getting-started/index.md
-    - Connect via SSH: getting-started/ssh-connection.md
-    - Interactive Sessions: getting-started/interactive-sessions.md
-    - Your First Slurm Job: getting-started/first-slurm-job.md
+      - Overview: getting-started/index.md
+      - SSH Connection: getting-started/ssh-connection.md
+      - Interactive Sessions: getting-started/interactive-sessions.md
+      - First SLURM Job: getting-started/first-slurm-job.md
+      - tmux Basics: getting-started/tmux-basics.md
   - Environment Setup:
-    - environment-setup/conda-basics.md
+      - Conda Basics: environment-setup/conda-basics.md
   - Hands-On Tutorial:
-    - hands-on-tutorial/index.md
-    - Explore Mortality Data: hands-on-tutorial/data-exploration.md
+      - Tutorial Home: hands-on-tutorial/index.md
+      - Data Exploration: hands-on-tutorial/data-exploration.md
   # - Reference:
-  #   - reference/slurm-commands.md
-  #   - reference/data-formats.md
-  #   - reference/common-patterns.md
+  #     - Slurm Commands: reference/slurm-commands.md
+  #     - Data Formats:   reference/data-formats.md
+  #     - Code Patterns:  reference/common-patterns.md
   # - Troubleshooting:
-  #   - troubleshooting/connection-issues.md
-  #   - troubleshooting/job-debugging.md
-  #   - troubleshooting/environment-conflicts.md
+  #     - Connection Issues:      troubleshooting/connection-issues.md
+  #     - Job Debugging:          troubleshooting/job-debugging.md
+  #     - Environment Conflicts:  troubleshooting/environment-conflicts.md
 
 theme:
   name: material
